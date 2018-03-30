@@ -1,0 +1,71 @@
+.transactionlist {
+  background: #ffffff;
+  padding-top: 15px;
+}
+.transactionlist .Input-search {
+    padding-left: 20px;
+}
+.transactionlist .BlockInformation {
+  height: 70px;
+  line-height: 70px;
+  background: #f9fcff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8693f3;
+}
+.transactionlist .blocklistHead {
+  background: none;
+}
+.transactionlist .ant-table-wrapper {
+  border: 1px solid #e1e1e1;
+  background-color: #ffffff;
+}
+/* .ant-table-title{
+    font-family: Montserrat;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#666666;
+    height:64px;
+    margin-left:30px;
+} */
+/* .ant-table-thead tr th{
+    padding:0;
+} */
+.transactionlist .ant-table-thead tr th:nth-of-type(1) {
+  background: none;
+  height: 40px !important;
+  text-align: center;
+  color: #8693f3;
+  border-bottom: none;
+}
+.transactionlist .ant-table-thead tr th:nth-of-type(2) {
+  background: none;
+  height: 40px !important;
+  text-align: center;
+  color: #8693f3;
+  border-bottom: none;
+}
+.transactionlist .ant-table-thead tr th:nth-of-type(3) {
+  background: none;
+  height: 40px;
+  text-align: center;
+  color: #8693f3;
+  font-size: 1em;
+  border-bottom: none;
+}
+.transactionlist .ant-table-row td {
+  text-align: center;
+  height: 60px;
+}
+.transactionlist.ant-table-footer {
+  background: #ffffff;
+}

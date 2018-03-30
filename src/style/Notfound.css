@@ -1,0 +1,25 @@
+.notFound{
+    margin-top:40px;
+}
+.ant-col-12{
+    text-align:center;
+    margin-top:51px;
+    color:#555555;
+    font-family:Montserrat;
+    font-size:30px;
+    letter-spacing:normal;
+    font-weight:normal;
+}
+.ant-col-10{
+    text-align:center;
+    margin-top:14px;
+    font-size:20px;
+    font-family:Montserrat;
+    letter-spacing:normal;
+    color:#555555;
+    font-stretch: normal;
+    font-weight:400;
+}
+.ant-row-flex img{
+    margin-top:50px;
+}

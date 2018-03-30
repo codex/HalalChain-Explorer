@@ -1,0 +1,14 @@
+.BlockView{
+   
+}
+.Blockview{
+    background:#6ec1ff;
+    height:50px;
+    line-height:50px;
+}
+.Blockview span{
+    margin-left:14%;
+    font-size:22px;
+    color:#ffffff;
+    font-family:Arial;
+}

@@ -1,0 +1,35 @@
+.Transaction {
+  background: #ffffff;
+  /* padding-top: 15px; */
+}
+.Transaction .input-search {
+  padding-left: 20px;
+}
+.Transaction .ant-table-content {
+  margin: 20px 15px 0;
+}
+.Transaction table {
+  margin-right: 30px;
+}
+.Transaction .ant-table-thead th {
+  background: #ffffff !important;
+  border-bottom: none;
+}
+.Transaction .ant-table-content tr td {
+  border: none;
+}
+.Transaction .TransactionList {
+  height: 40px;
+  color: #343434;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-top: 20px;
+}
+.Transaction .TransactionList span {
+  margin-left: 10%;
+}
+.Transaction .ant-table-thead th {
+  border-bottom: 2px solid #6ec1ff;
+}

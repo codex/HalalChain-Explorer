@@ -1,0 +1,53 @@
+/* .BlocklistandView .BlocklistandViewHeader{
+    background:#6ec1ff !important;
+    height:50px !important;
+    margin-top:20px;
+    line-height:30px !important;
+    color:#ffffff !important;
+    font-family:Arial;
+    
+} */
+.BlocklistandView .BlocklistandViewHeader span:nth-of-type(1){
+    /* margin-left:-12%; */
+    font-size:22px;
+}
+/* .BlocklistandView .BlocklistandViewHeader span:nth-of-type(2){
+    margin-left:46%;
+    font-size:22px;
+} */
+/* .BlocklistandView .BlocklistandViewContent{
+    padding:0 !important;
+} */
+
+.BlocklistandView .ant-table-content{
+    margin:20px 15px 0;
+}
+/* 
+.BlocklistandView .BlocklistRight{
+    background:url(../images/earth_img.png) no-repeat 20px 244px;
+    position:relative;
+}
+.BlocklistandView  .Identifier{
+    font-family:Arial;
+    font-size:20px;
+    margin-top:11%;
+    margin-left:7%;
+} 
+.BlocklistandView .Input{
+    width:100% !important;
+    margin-top:20px !important;
+}
+.BlocklistandView .RadioGroup{
+    margin-top:18px;
+    margin-left:22px;
+}
+.BlocklistandView .findButton{
+    border:none;
+    border-radius:5px;
+    width:35%;
+    height:36px;
+    color:#ffffff;
+    position:absolute;
+    right:40px;
+    bottom:36px;
+} */

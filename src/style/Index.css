@@ -1,0 +1,220 @@
+.main-wrap {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  padding: 0 10%;
+}
+.left {
+  position: fixed;
+  top: 120px;
+  left: 10%;
+  width: 280px;
+  /* z-index: 9999; */
+  /* margin-left: 20px; */
+}
+.peer,
+.Block,
+.blockheight,
+.tx {
+  margin-bottom: 20px;
+  height: 102px;
+}
+.peer {
+  position: relative;
+  background: url(../images/peer_bg.png) no-repeat;
+}
+.Block {
+  position: relative;
+  background: url(../images/block_bg.png) no-repeat;
+}
+.blockheight {
+  position: relative;
+  background: url(../images/tx_bg.png) no-repeat;
+}
+.tx {
+  position: relative;
+  background: url(../images/chaincode_bg.png) no-repeat;
+}
+.peer .Peerdd {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+}
+.peer .peerImage {
+  margin-top: -52px;
+}
+.peer .green {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+}
+.Block .blockBB {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+}
+.Block .blue {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+}
+.blockheight .blockheightImage {
+  margin-top: -50px;
+}
+.blockheight .blockheightTT {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+}
+.blockheight .red {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+}
+.tx .txCC {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+}
+.tx .purse {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+}
+.right {
+  padding-left: 320px;
+  width: 100%;
+  overflow: hidden;
+}
+.sourceChannel {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #343434;
+}
+/* .ant-col-3{
+    width:282px !important;
+    height:102px;
+    margin:0 1%;
+    background-color: #ffffff;
+    color:#ffffff;
+    object-fit: contain;
+} */
+
+.blockHead {
+  margin-top: 34px !important;
+}
+.blockHead dl {
+  margin-top: 23px;
+}
+.blockHead dl dt {
+  float: left;
+  margin-left: 40px;
+  margin-top: -45px;
+}
+.blockHead dl dt img {
+  margin-left: -10px;
+}
+/* .blockHead dl dt img{
+    margin-top:30px;
+} */
+.blockHead dl dd {
+  float: right;
+  opacity: 0.7;
+  margin: 20px 15px 0 0;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.blockHead dl dd:nth-of-type(odd) {
+  color: black;
+  margin-top: -20px;
+}
+.blockHead dl dd:nth-of-type(even) {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  opacity: 1;
+}
+.green {
+  color: #4ecb73;
+}
+.blue {
+  color: #0458bf;
+}
+.red {
+  color: #f2637b;
+}
+.purse {
+  color: #75669b;
+}
+.peerList {
+  background: #4ecb73;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 78px;
+}
+.peerList span {
+  margin-left: 20px;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Arial;
+}
+.title-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-wrap .title-1 {
+  margin-left: 20px;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Arial;
+  display: inline-block;
+}
+.title-wrap .search-wrap {
+  width: 50%;
+  margin-right: 20px;
+}
+.BlockList {
+  background: #6ec1ff;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.TransactionList {
+  background: #6ec1ff;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.ProductTransfer {
+  background: #0458bf;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+/* .ProductTransfer .ProductTransfer-title1 {
+  padding-left: 20px;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Arial;
+} */
+.ProductTransfer .ProductTransfer-title2 {
+  padding-left: 20px;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Arial;
+}

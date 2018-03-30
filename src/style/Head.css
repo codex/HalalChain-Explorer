@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0 !important;
+  padding: 0;
+}
+body {
+  background:url(../images/explorer_bg.png) no-repeat;
+  background-attachment: fixed;
+}
+.header-wrap {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+.header-wrap .ant-layout-header {
+  padding: 0 265px !important;
+  background: #000f29 !important;
+  height: 80px !important;
+  line-height: 60px !important;
+  position: relative;
+}
+.LOGO {
+  margin-top: 8px;
+}
+.header-wrap .ant-layout-header span {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  position: absolute;
+  top: 13px;
+  margin-left: 20px;
+  /* left: 22%; */
+}
+.refresh {
+  float: right;
+  margin-top: 25px;
+}
+/* .ant-input-suffix{
+    margin-top:-28px;
+    opacity:0.7;
+}
+.ant-input{
+    width:40.4% !important;
+    height:36px !important;
+    border:1px solid #5771dc;
+    float:right !important;
+    margin-top:-47px !important;
+} */
+.blockHead {
+  margin-top: 77px;
+}

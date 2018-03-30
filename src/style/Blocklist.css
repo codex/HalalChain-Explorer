@@ -1,0 +1,133 @@
+.BlockInformation{
+    height:50px !important;
+}
+.blockList{
+    /* margin-right:29.2%; */
+    /* margin-top: 40px;
+    margin-left:20px; */
+    background: #ffffff;
+    /* padding-top:15px;  */
+}
+/* .blockList .input-search {
+    padding-left: 20px;
+} */
+
+.blockList .ant-table-wrapper{
+    border:none !important; 
+    /* border-radius:4px; */
+    background-color:#ffffff;
+    /* padding-left:2%; */
+    box-shadow: 0 2px 15px 0 rgba(227, 227, 227, 0.5);
+}
+.blockList .ant-table-title{
+    background:#6ec1ff !important;
+    font-family: Arial;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 70px;
+    letter-spacing: normal;
+    color:#666666;
+    height:50px !important;
+    padding-left:40px !;
+}
+.blockList .ant-table-thead tr th{
+    /* padding:16px 16px; */
+    background: #ffffff;
+    border: none;
+    height: 40px;
+    text-align: left;
+    font-size: 18px;
+    color: #343434;
+    font-weight: 300;
+    border-bottom: 2px solid #6ec1ff;
+}
+.blockList .ant-table-content tr td{
+    /* width:10px; */
+    height:60px;
+    border:none;
+    padding:10px 0 10px 16px;
+}
+/* .blockList .ant-table-thead tr:first-child{
+    padding:0;
+    background: red;
+} */
+.Columnsone{
+    border-bottom:2px solid #6ec1ff !important;
+}
+/* .blockList .ant-table-thead tr th:nth-of-type(1){
+    height:40px !important;
+    color:#343434;
+    border-bottom:#6ec1ff;
+    background: #ffffff;
+}
+.blockList .ant-table-thead tr th:nth-of-type(2){
+    height:40px !important;
+    text-align:left;
+    color:#343434;
+    background: #ffffff;
+}
+.blockList .ant-table-thead tr th:nth-of-type(3){
+    height:40px;
+    text-align:left;
+    color:#343434;
+    font-size:1em;
+    background: #ffffff;
+}
+.blockList .ant-table-thead tr th:nth-of-type(5){
+    height:40px;
+    text-align:left;
+    color:#343434;
+    font-size:1em;
+    background:none;
+    background: #ffffff;
+    border-bottom:#6ec1ff !important;
+} */
+/* .blockLsit .ant-table-thead tr th{
+    border-bottom:2px solid #6ec1ff;
+} */
+/* .blockList .ant-table-thead tr th{
+    padding:16px 16px;
+    background: #ffffff;
+    border:none;
+} */
+/* .blockList .ant-table-content tr td{
+    width:10px;
+    height:60px;
+    border:none;
+    padding:10px 0 10px 16px;
+} */
+/* .blockList .ant-table-thead tr:first-child{
+    padding:0;
+    background: red;
+} */
+/* .Columnsone{
+    border-bottom:2px solid #6ec1ff !important;
+} */
+
+/* .blockList .ant-table-row td{
+    height:50px;
+}
+.blockList .ant-table-footer{
+    background:#ffffff;
+} */
+/* .blockList .ant-pagination{
+    padding-top:21% !important;
+    text-align:center;
+} */
+.blockList .ant-row-flex{
+    background:#ffffff;
+}
+.blockNumber{
+    width:10px;
+}
+.transactions{
+    width:10px;
+}
+.timestamp{
+    width:50px;
+}
+.blockNumber{
+    border-bottom:2px solid #6ec1ff;
+}

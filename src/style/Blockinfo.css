@@ -1,0 +1,75 @@
+.ant-layout{
+    background:none !important;
+}
+.Blockinfo{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:100px;
+    letter-spacing: normal;
+    color: #8693f3;
+}
+.Blockinfo span{
+    color: #dbdbdb;
+    margin-left:-25px;
+}
+.blockinfoHead{
+    height:92px;
+    line-height:92px;
+    background:#f9fcff;
+    margin-bottom:22px;
+}
+.ant-layout-content{
+    margin:7% 10%;
+    border-radius:4px;
+    box-shadow:0 2px 15px 0 rgba(227, 227, 227, 0.5);
+}
+.ant-col-11{
+    
+    margin-left:5%;
+    
+}
+.blockImage{
+    margin-left:3%;
+}
+.ant-col-5{
+    background:#96c4df;
+    height:40px;
+    line-height:40px;
+    color:#ffffff;
+    padding-right:4%;
+}
+.ant-col-17{
+    line-height:40px;
+    color:#8693f3;
+}
+.selectHead{
+    margin-left:4%;
+    color:#8693f3;
+}
+.ant-col-23{
+    height:260px;
+}
+
+.selection{
+    background:none;
+    color:#666666;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:40px;
+    letter-spacing: normal;
+    margin-left:4%;
+}
+.selectionresult{
+    background:none;
+    color:#444444;
+    line-height:40px;
+}
+.ant-table-thead tr th{
+    height:40px !important;
+}
