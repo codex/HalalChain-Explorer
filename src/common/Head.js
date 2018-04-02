@@ -21,10 +21,6 @@ export default class Head extends Component {
                     <Header>
                         <img className="LOGO" src={logo} alt=" " />
                         <span>HalalChain Explorer</span>
-                        {/* <Search
-                            placeholder="BlockHash / TxID"
-                            onSearch={value => console.log(value)}
-                        /> */}
                         <img className="refresh" src={refresh} alt=" " onClick={this.handleClick} /> 
                     </Header>
                 </Layout>
