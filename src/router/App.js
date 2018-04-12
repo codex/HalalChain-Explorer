@@ -27,11 +27,6 @@ class App extends Component {
               <Switch>
                 <Redirect exact="/" from="/" to="/index" />
                 <Route path="/index" component={Index} />
-                {/* <Route path="/blockinfo" component={Blockinfo} />
-                <Route path="/blocklist" component={Blocklist} />
-                <Route path="/missmatching" component={Missmatching} />
-                <Route path="/transactioninfo" component={Transactioninfo} />
-                <Route path="/transactionlist" component={Transactionlist} /> */}
                 <Route path="/notfound" component={Notfound} />
               </Switch>
             </div>
