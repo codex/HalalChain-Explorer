@@ -38,18 +38,12 @@ const columns = [
     width:'160px',
     key: 'previousHash',
     className: 'previousHash'
-    //     render(text, row, index) {
-    //         return <a href="#jiake">{text}</a>;
-    //   }
   },
   {
     title: 'Data_hash',
     dataIndex: 'data_hash',
     key: 'dataHash',
     className: 'dataHash'
-    //     render(text, row, index) {
-    //         return <a href="#jiake">{text}</a>;
-    //   }
   }
 ];
 let datas;

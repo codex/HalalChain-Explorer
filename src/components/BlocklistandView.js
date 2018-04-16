@@ -18,25 +18,7 @@ export default class BlocklistView extends Component {
   };
   handleSearchClick(value, type,cb) {
     this.props.handleSearchClick(value, type,cb);
-    // console.log('value=' + value);
-    // if (this.props.handleSearchClick) {
-    //   if (value) {
-    //     console.log('有value');
-    //     this.props.handleSearchClick(value, this.state.value);
-    //   } else if (numChange) {
-    //     console.log('没有value');
-    //     this.props.handleSearchClick(numChange, this.state.value);
-    //   }
-    // }
   }
-  //   handleSearchForSub() {
-  //     //Find搜索
-  //     if (this.props.handleSearch) {
-  //       if (numChange) {
-  //         this.props.handleSearch(numChange, this.state.value, selectNum);
-  //       }
-  //     }
-  //   }
 
   onChange = e => {
     console.log('radio checked', e.target.value);
