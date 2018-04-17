@@ -11,7 +11,8 @@ const columns = [
   {
     title: 'Block',
     dataIndex: 'number',
-    width:'80px',
+    // width:'80px',
+    width:'104px',
     key: 'block',
     className: 'blockNumber',
     render(text, row, index) {
@@ -20,7 +21,8 @@ const columns = [
   },
   {
     title: 'TXs',
-    width:'100px',
+    // width:'100px',
+    width:'86px',
     dataIndex: 'tx_count',
     key: 'transactions',
     className: 'transactions'
@@ -28,14 +30,15 @@ const columns = [
   {
     title: 'Timestamp',
     dataIndex: 'timestamp',
-    width:'130px',
+    // width:'130px',
+    width:'15%',
     key: 'timestamp',
     className: 'timestamp'
   },
   {
     title: 'Previous_hash',
     dataIndex: 'previous_hash',
-    width:'160px',
+    // width:'160px',
     key: 'previousHash',
     className: 'previousHash'
   },
