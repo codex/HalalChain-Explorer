@@ -31,5 +31,7 @@
   margin-left: 10%;
 }
 .Transaction .ant-table-thead th {
-  border-bottom: 2px solid #6ec1ff;
+  // border-bottom: 2px solid #6ec1ff;
+  background: transparent none !important;
+   border-bottom: none;
 }
