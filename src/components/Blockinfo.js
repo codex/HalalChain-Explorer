@@ -3,6 +3,7 @@ import '../style/Blockinfo.css';
 import {Layout,Row,Col,Table} from 'antd';
 import blockInfo from '../images/9.svg';
 const {Content} = Layout;
+let uniqueId = 0;
 const columns = [{
     title: 'NO.',
     dataIndex: 'name',
@@ -59,6 +60,11 @@ export default class Blockinfo extends Component {
                             </Col>
                         </Row>
                         <Table
+                        rowKey={(record) => {
+                            if (!record.__uniqueId)
+                              record.__uniqueId = ++uniqueId;
+                            return record.__uniqueId;
+                          }}
                     columns={columns}
                     dataSource={this.state.dataSource}
                     pagination={false}
