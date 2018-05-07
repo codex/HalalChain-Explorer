@@ -116,6 +116,11 @@
     padding-top:21% !important;
     text-align:center;
 } */
+
+th.blockNumber,th.transactions,th.timestamp{
+    white-space: nowrap;
+}
+
 .blockList .ant-row-flex{
     background:#ffffff;
 }
