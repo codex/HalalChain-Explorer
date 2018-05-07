@@ -12,7 +12,9 @@
   margin-right: 30px;
 }
 .Transaction .ant-table-thead th {
-  background: #ffffff !important;
+  font-size: 18px;
+  font-weight: 300;
+  background: transparent none !important;
   border-bottom: none;
 }
 .Transaction .ant-table-content tr td {
